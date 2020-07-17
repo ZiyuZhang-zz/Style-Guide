@@ -1,0 +1,7 @@
+@mixin mq($break) {
+    @if $break >= 768px {
+        @media(min-width:768px){
+         @content;
+        }
+     }
+ }
